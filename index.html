@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptor Text</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- boostrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- We're going to create our header to make bar navegation. -->
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+            
+                    <h2>ENCRIPTOR <i class="bi bi-body-text"></i></h2>
+            
+                    <ul>
+                        <li><a href="#">About</i></a></li>
+                        <i class="bi bi-moon"></i>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- section1 -->
+        <section id="section1">
+            <div class="container">
+            <div class="logo"><img src="Imgs/Logo.png" alt=""></div>
+                <div class="row">
+                    <article id="col-input-incrip">
+                        <textarea name="textarea" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+                    
+                        <div class="icono-parrafo">
+                            <i class="bi bi-exclamation-circle-fill"></i>
+                            <p>Solo letras en miniscula y sin acepto</p>
+                        </div>
+                        <div class="fila-botones">
+                    
+                            <button class="btn-button1" onclick="encript();">Encriptar</button>
+                            <button class="btn-button2">Desencriptar</button>
+                        </div>
+                    </article>
+                    
+                    
+                    
+                    
+                    <div id="messaje-incriptation">
+                        <img src="Imgs/Muñeco.png" alt="doll">
+                        <h3>Ningun Mensaje fue <br> encontrado</h3>
+                        <p>Ingresa el texto que deseas encriptar o<br> desepcritar</p>
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+    </main>
+
+
+    <!-- footer -->
+
+    <footer>
+        <p>Design by DevAndrew <em>Gx</em></p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
