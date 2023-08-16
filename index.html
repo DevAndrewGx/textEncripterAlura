@@ -37,7 +37,7 @@
             <div class="logo"><img src="Imgs/Logo.png" alt=""></div>
                 <div class="row">
                     <article id="col-input-incrip">
-                        <textarea name="textarea" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+                        <textarea name="textarea" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui" required></textarea>
                     
                         <div class="icono-parrafo">
                             <i class="bi bi-exclamation-circle-fill"></i>
@@ -46,7 +46,7 @@
                         <div class="fila-botones">
                     
                             <button class="btn-button1" onclick="encript();">Encriptar</button>
-                            <button class="btn-button2">Desencriptar</button>
+                            <button class="btn-button2" onclick="decript();">Desencriptar</button>
                         </div>
                     </article>
                     
@@ -54,8 +54,9 @@
                     
                     
                     <div id="messaje-incriptation">
-                        <img src="Imgs/Muñeco.png" alt="doll">
-                        <h3>Ningun Mensaje fue <br> encontrado</h3>
+                        <img id="img-toy" src="Imgs/Muñeco.png" alt="doll">
+                        
+                        <span id="change-text"><h3 id="message-nfound">Ningun Mensaje fue <br> encontrado</h3></span>
                         <p>Ingresa el texto que deseas encriptar o<br> desepcritar</p>
                     </div>
                 </div>
