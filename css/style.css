@@ -181,7 +181,8 @@ main {
 
 #messaje-incriptation {
     width: 30%;
-    padding: 250px 40px;
+    max-width: 300px;
+    padding: 0 40px 195px;
     background: #fff;
     margin-top: -64px;
     border-radius: 30px;
@@ -195,10 +196,23 @@ main {
     margin-bottom: 20px;
 }
 
+
+
 #messaje-incriptation p {
     text-align: center;
     font-size: 18px;
 }
+
+.encrypted-container {
+    padding-bottom: 200px;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+#message-not-found {
+    padding-top: 135px;
+}
+
 
 
 /* Styles for footer */
